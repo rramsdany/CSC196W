@@ -1,9 +1,27 @@
+html {
+    font-size: 20px;
+}
+
+
 h1{
-    color:red;
+    font-size: 5rem;
+    text-shadow: 1px 1px 1px red, 2px 2px 1px red;
 }
 
 p, li {
     color: green;
+}
+
+p::first-line {
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+
+p {
+    text-align: center;
+    font-family: "Trebuchet MS";
+    color: orange;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 li {
